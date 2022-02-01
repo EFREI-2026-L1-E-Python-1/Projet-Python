@@ -29,7 +29,7 @@ class Menu :
       Menu().Tool().Separation().long()
       print("Aide\n")
       print("Ce fichier d'aide est situé dans readme.txt\n")
-      help_file = open("README.md", "r")
+      help_file = open("README.txt", "r")
       print(help_file.read())
       help_file.close()
       input("\nAppuyez sur n'importe quelle touche pour continuer")
